@@ -1,16 +1,27 @@
-# xo
+# XO Game ❌⭕  
 
-A new Flutter project.
+A simple Flutter Tic-Tac-Toe game.  
+Two players take turns marking spaces in a 3×3 grid. The first to get three in a row wins.
+
+---
+
+## Features
+- 🎮 Two-player mode on the same device  
+- 🖼️ Simple and clean UI  
+- 🏆 Detects winner or draw automatically  
+- 🔄 Restart game option  
+
+---
+
+## How to Play
+1. 👆 Player 1 taps a cell to place **X**  
+2. 👆 Player 2 taps another cell to place **O**  
+3. 🏆 First player with 3 in a row (horizontally, vertically, or diagonally) wins  
+4. 🤝 If the grid is full and no one wins → it’s a draw  
+
+---
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```bash
+flutter pub get
+flutter run
